@@ -1,6 +1,6 @@
 import 'package:blog_app/models/article.dart';
-import 'package:blog_app/widget/NewsFeed/NewsItemContent.dart';
-import 'package:blog_app/widget/NewsFeed/NewsItemImage.dart';
+import 'package:blog_app/widget/news_feed/news_item/news_preview_text.dart';
+import 'package:blog_app/widget/news_feed/news_item/news_image.dart';
 import 'package:flutter/material.dart';
 
 class NewsItem extends StatelessWidget {
@@ -21,7 +21,7 @@ class NewsItem extends StatelessWidget {
           NewsItemImage(imageUrl: article.imageUrl),
 
           // 2. Text Content
-          NewsItemContent(article: article),
+          NewsPreviewText(article: article),
         ],
       ),
     );

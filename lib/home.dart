@@ -1,5 +1,5 @@
 import 'package:blog_app/models/article.dart';
-import 'package:blog_app/widget/NewsFeed/NewsItems.dart';
+import 'package:blog_app/widget/news_feed/news_item/news_items.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {

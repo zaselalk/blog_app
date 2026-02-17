@@ -1,9 +1,9 @@
 import 'package:blog_app/models/article.dart';
 import 'package:flutter/material.dart';
 
-class NewsItemContent extends StatelessWidget {
+class NewsPreviewText extends StatelessWidget {
   final Article article;
-  const NewsItemContent({super.key, required this.article});
+  const NewsPreviewText({super.key, required this.article});
 
   @override
   Widget build(BuildContext context) {
