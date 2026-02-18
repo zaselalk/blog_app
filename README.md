@@ -298,6 +298,3 @@ If you have any questions or need help, please:
 - Check existing issues for solutions
 - Refer to the [Flutter documentation](https://docs.flutter.dev/)
 
----
-
-Made with ❤️ using Flutter
